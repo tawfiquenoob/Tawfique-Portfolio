@@ -1,8 +1,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{  font-family: "Open Sans",system-ui;;
-
-
-
+*{  font-family: "Lato",sans-serif;;
+    font-family:"Open Sans",sans-serif ;
+    font-family: "Work Sans",sans-serif;
 }
+
+
+
+
+/* Shared Styles */
+
+.btn-primary{padding: ; font-size: ;}
+
+
+
+
+
+
+
+
+/* Header Section */
+header{background-color: rgba(255,144, 14, 0.10);
+    padding: 50px 240px;}
+
+nav{display: flex ; justify-content: space-between; align-items: center;}
+
+/* the ul is jsut the list items itself as a whole, make this go side by side with flex and then make the bullets go awau with none */
+nav ul{ list-style: none; display: flex; }   
+/* this is the list items, this makes the each list items or text seperate with the margin position */
+nav li{margin-right: 30px;font-weight: 500; font-size: 18px; }
+
+/* To remove the anchor underline use this */
+nav a{text-decoration: none; color: 424242;}
+
+.nav-title{font-size: 3rem ; font-weight: 700; color: #131313}
+
+.banner-content{max-width: 800px;text-align: center;margin: 0 auto;}
+.banner-title{font-size: 4rem; font-weight: 700; color: #131313}
+.banner-description{ color: #727272}
