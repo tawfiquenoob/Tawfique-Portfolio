@@ -13,7 +13,7 @@
 
 .btn-primary{padding: 20px 25px ;color: #fff ;border-radius: 8px;background: #ff900e; font-size: 1.25rem;cursor:pointer;border:0;}
 .text-light-grey{color: #727272;}
-
+.section-title{font-size: 3rem ; font-weight: 700; color: #131313}
 
 
 
@@ -34,7 +34,7 @@ nav li{margin-right: 30px;font-weight: 500; font-size: 18px; }
 /* To remove the anchor underline use this */
 nav a{text-decoration: none; color: 424242;}
 
-.nav-title{font-size: 3rem ; font-weight: 700; color: #131313}
+
 
 .banner-content{max-width: 800px;text-align: center;margin: 0 auto;}
 .banner-title{font-size: 4rem; font-weight: 700; color: #131313}
@@ -56,6 +56,25 @@ main{max-width: 1440px; margin:70px auto;}
 .teams-title .features{color:#FF900E;font-weight:700 ;}
 
 
+/* facts section */
+.facts-card-container {display: flex;justify-content: space-around;}
+.facts-card-container .card{border-radius: 8px; border: 1px solid #ff900e;text-align: center; padding:30px;}
+.facts-card-container .card-stats{font-size: 2.8rem;color: #424242; margin-top: 10px; margin-bottom: 10px;}
+.facts-card-container .card-title {font-weight: 600; font-size: 1.25rem; margin-top: 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -66,11 +85,12 @@ main{max-width: 1440px; margin:70px auto;}
 {
     header {
         padding:20px;}
-    nav, .teams-container{ flex-direction: column;}
+    nav, .teams-container, .facts-card-container{ flex-direction: column;}
 
     .teams-img-container{grid-template-columns: 1fr;}
 
-    .teams-content{padding-left: 20px;padding-right: 20px;}
+    .teams-content,.facts-card-container{padding-left: 20px;padding-right: 20px;}
+    .facts-card-container{gap: 20px;}
 }
 
 
